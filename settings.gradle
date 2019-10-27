@@ -1,2 +1,2 @@
-include ':app', ':DataStorage'
+include ':app', ':DataStorage', ':displaylibrary'
 rootProject.name='JavaAndAndroidLibrary'

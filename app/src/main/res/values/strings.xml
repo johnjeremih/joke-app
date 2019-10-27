@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">JavaAndAndroidLibrary</string>
+    <string name="instructions">Hit the button to get a joke from a Java library and pass it to an Android Library for display!</string>
+    <string name="button_text">Tell a joke</string>
 </resources>
