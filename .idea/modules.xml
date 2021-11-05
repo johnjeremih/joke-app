@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DataStorage/DataStorage.iml" filepath="$PROJECT_DIR$/DataStorage/DataStorage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaAndAndroidLibrary.iml" filepath="$PROJECT_DIR$/javaAndAndroidLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/displaylibrary/displaylibrary.iml" filepath="$PROJECT_DIR$/displaylibrary/displaylibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAndAndroidLibrary.iml" filepath="$PROJECT_DIR$/JavaAndAndroidLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataStorage/JavaAndAndroidLibrary.DataStorage.iml" filepath="$PROJECT_DIR$/.idea/modules/DataStorage/JavaAndAndroidLibrary.DataStorage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JavaAndAndroidLibrary.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JavaAndAndroidLibrary.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/displaylibrary/JavaAndAndroidLibrary.displaylibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/displaylibrary/JavaAndAndroidLibrary.displaylibrary.iml" />
     </modules>
   </component>
 </project>

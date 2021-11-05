@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.Objects;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,11 +31,12 @@ public class DisplayFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_display, container, false);
 
 
-        Intent intent = getActivity().getIntent();
+
+        Intent intent = requireActivity().getIntent();
         String joke = intent.getStringExtra(DisplayActivity.JOKE_KEY);
 
 
-        TextView jokeTextView = (TextView) root.findViewById(R.id.joke_TextView);
+        TextView jokeTextView = root.findViewById(R.id.joke_TextView);
         if (joke != null && joke.length() != 0) {
             jokeTextView.setText(joke);
         }
